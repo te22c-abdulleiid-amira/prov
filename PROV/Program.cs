@@ -2,4 +2,5 @@
 while (resultat < 1)
 {
     string tal = Console.ReadLine();
+    
 }
