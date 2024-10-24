@@ -13,7 +13,13 @@ public class Jumper : Lemming
     {
         if (JumpForce > 0)
         {
-
+            Y++;
+            JumpForce--;
         }
+        else if (JumpForce < 0 || JumpForce == 0)
+        {
+            
+        }
+        
     }
 }

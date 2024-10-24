@@ -7,7 +7,7 @@ public class Digger : Lemming
     public bool IsDigging;
     public void StartDigging()
     {
-
+        IsDigging = true;
     }
     public void Update()
     {

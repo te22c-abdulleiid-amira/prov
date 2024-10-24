@@ -7,9 +7,6 @@ public class Lemming
     public int X;
     public int Y;
     public int Direction = 1;
-     
-    
-
     
     public void Walk()
     {
